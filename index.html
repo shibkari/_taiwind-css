@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piece of Cake - Your Sweet Life</title>
+  <link rel="icon" type="image/png" href="public/birthday-cake.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <img src="public/logo.png" alt="Piece of Cake">
+        </div>
+
+        <nav class="nav">
+          <a href="#products">Продукція</a>
+          <a href="#about">Про нас</a>
+          <a href="#delivery">Оплата та доставка</a>
+          <a href="#contacts">Контакти</a>
+        </nav>
+
+        <div class="header-socials">
+          <a href="#" class="social-icon viber">
+            <i class="fab fa-viber"></i>
+          </a>
+          <a href="#" class="social-icon telegram">
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+          <a href="#" class="social-icon instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="tel:+380631329103" class="phone-btn">
+            <i class="fas fa-phone-alt"></i> +38 063 132 91 03
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-heart">
+      <img src="public/heart.png" alt="Heart">
+      <div class="hero-text-overlay">
+        <h2 class="hero-heading">
+          Кожен шматочок — це маленьке свято. Ми готуємо з любов'ю, щоб ви відчули справжню насолоду.
+          Солодкий аромат, ніжний смак і трішки магії — усе, що потрібно для щастя.
+        </h2>
+        <div class="hero-buttons">
+          <a href="#order" class="button button--secondary">Тиць!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Swiper Carousel Section -->
+  <section class="swiper-section">
+    <div class="lace-decoration">
+      <img src="public/lace.png" alt="" class="lace-top">
+    </div>
+
+    <h2 class="swiper-title">
+      Крихітні десертики кружляють у каруселі — обирай той, що сьогодні твоє сердечко хоче найбільше.
+    </h2>
+    <div class="container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <div class="cake-grid">
+              <div class="cake-item">
+                <img src="public/cake-1.png" alt="Торт 1">
+              </div>
+              <div class="cake-item">
+                <img src="public/cake-2.png" alt="Торт 2">
+              </div>
+              <div class="cake-item">
+                <img src="public/cake-3.png" alt="Торт 3">
+              </div>
+              <div class="cake-item">
+                <img src="public/cake-4.png" alt="Торт 4">
+              </div>
+              <div class="cake-item">
+                <img src="public/cake-5.png" alt="Торт 5">
+              </div>
+              <div class="cake-item">
+                <img src="public/cake-6.png" alt="Торт 6">
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide">
+            <div class="cake-grid">
+              <div class="cake-item">
+                <img src="public/cake-7.png" alt="Торт 7">
+              </div>
+              <div class="cake-item">
+                <img src="public/cake-8.png" alt="Торт 8">
+              </div>
+              <div class="cake-item">
+                <img src="public/pie.png" alt="Пиріг">
+              </div>
+              <div class="cake-item">
+                <img src="public/tiramisu.png" alt="Тірамісу">
+              </div>
+              <div class="cake-item">
+                <img src="public/strawberry-tart.png" alt="Тарт">
+              </div>
+              <div class="cake-item">
+                <img src="public/macarons.png" alt="Макаронс">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="swiper-button-prev">
+          <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div class="swiper-button-next">
+          <svg width="50" height="50" viewBox="0 0 24 24" fill="none">
+            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Delivery Section -->
+  <section id="delivery" class="delivery-section">
+    <div class="container">
+      <h2 class="delivery-title">Доставка та оплата</h2>
+
+      <div class="delivery-content">
+        <div class="delivery-info">
+          <div class="delivery-item">
+            <div class="delivery-icon">
+              <img src="public/price-tag.png" alt="Ціна">
+            </div>
+            <div class="delivery-text">
+              <h3>Повна або часткова передплата</h3>
+              <p>Ви можете оплатити замовлення повністю або внести передплату 50%. Приймаємо готівку та безготівковий
+                розрахунок. Оплата при отриманні доступна для постійних клієнтів.</p>
+            </div>
+          </div>
+
+          <div class="delivery-item">
+            <div class="delivery-icon">
+              <img src="public/location-pin.png" alt="Локація">
+            </div>
+            <div class="delivery-text">
+              <h3>Самовивіз тут: м. Львів, вул. Городоцька, 181</h3>
+              <p>Наша кондитерська розташована в серці Львова. Забрати замовлення можна щодня з 9:00 до 20:00. Зручне
+                паркування біля будівлі. Попередньо узгодьте час забору телефоном.</p>
+              <a href="https://maps.app.goo.gl/DtZVYTy8JYU7BjgS8" target="_blank" class="route-link">
+                Прокласти маршрут
+              </a>
+            </div>
+          </div>
+
+          <div class="delivery-item">
+            <div class="delivery-icon">
+              <img src="public/cake.png" alt="Доставка">
+            </div>
+            <div class="delivery-text">
+              <h3>Доставляємо по Львову та передмістю</h3>
+              <p>Швидка та бережна доставка вашого замовлення кур'єром. Доставка по центру Львова - від 100 грн, по
+                місту - від 150 грн. Працюємо з 10:00 до 21:00. Для передмістя узгоджується окремо.</p>
+              <p class="delivery-note">Вартість доставки залежить від адреси</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="delivery-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.7956843476757!2d24.06299887646158!3d49.84326853177945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7c09109a57%3A0x4223c517012378e0!2z0LLRg9C70LjRhtGPINCT0L7RgNC-0LTQvtGG0YzQutCwLCAxODEsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1suk!2sua!4v1735057120000!5m2!1suk!2sua"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.mySwiper', {
+      slidesPerView: 1,
+      spaceBetween: 50,
+      loop: true,
+      loopAdditionalSlides: 2,
+      slideToClickedSlide: false,
+      centeredSlides: false,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      watchOverflow: true,
+    });
+  </script>
+
+</body>
+
+</html>
