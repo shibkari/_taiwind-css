@@ -14,7 +14,7 @@ export default defineConfig({
     assetsDir: 'assets',
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.taiwind.html')
+        main: resolve(__dirname, 'index.html')
       }
     }
   }
